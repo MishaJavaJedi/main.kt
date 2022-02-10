@@ -43,7 +43,7 @@ internal class MainKtTest{
     fun mirTrueTest(){
         val cardType = "Mir"
         val amount = 20_000
-        val expectedResult = 3500_0 //
+        val expectedResult = 3500
         val actualResult = result(cardType,amount)
         assertEquals(expectedResult,actualResult)
     }
